@@ -134,3 +134,18 @@ E. 0,2575
 
 Jawabannya adalah A 0,2175
 
+20. Suatu sampel terdiri 2,000 klaim terdiri dari sebagai berikut:
+• 1.700 observasi yang tidak lebih besar dari 6.000
+• 30 observasi diantara 6.000 dan 7.000
+• 270 observasi yang lebih besar dari 7.000
+Diketahui bahwa total jumlah klaim dari 30 observasi diantara 6.000 dan 7.000 ialah 200.000. Nilai
+dari 𝐸(𝑋 ∧ 6.000) untuk distribusi empirikal yang berasosiasi dengan 2.000 observasi ini ialah
+1.810. Hitung distribusi empirical dari 𝐸(𝑋 ∧ 7.000)
+
+A. 1.755
+B. 1.855
+C. 1.955
+D. 2.055
+E. 2.555
+
+Jawabannya adalah 2.5835 (yang mendekati adalah E. 2.555)
