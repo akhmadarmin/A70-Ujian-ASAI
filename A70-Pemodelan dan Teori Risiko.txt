@@ -1,0 +1,136 @@
+Soal A70
+
+1. Sebelum dikenakan potongan deductible, suatu kerugian asuransi kecelakaan diri mengikuti
+distribusi Pareto dengan 𝛼 = 3,7 & 𝜃 = 120. Diketahui besaran deductible = 25.
+Hitung variansi besar klaim yang dibayarkan oleh perusahaan asuransi tersebut untuk satu
+kali kejadian termasuk apabila pembayaran klaim sebesar nol.
+A. Kurang dari 3.900
+B. Sedikitnya 3.900 tapi kurang dari 4.000
+C. Sedikitnya 4.000 tapi kurang dari 4.100
+D. Sedikitnya 4.100 tapi kurang dari 4.200
+E. Sedikitnya 4.200
+
+Jawabannya adalah E. 4299.201162191439 (Sedikitnya 4.200)
+
+2. Diberikan informasi sebagai berikut
+Banyaknya kesalahan yang dilakukan oleh staff klaim asuransi kesehatan setiap
+jamnya mengikuti distribusi Poisson dengan rata-rata 𝜆
+Distribusi prior dari 𝜆 diketahui mengikuti distribusi Gamma dengan 𝛼 = 0,8 dan 𝜃 =
+1/40
+Seorang staff klaim, Sastro Dian, diketahui melakukan kesalahan sebanyak 6 kali
+dalam 100 jam waktu observasi.
+Tentukan ekspetasi banyaknya kesalahan yang akan dilakukan oleh Sastro Dian dalam 100
+jam ke depan
+jawabannya harus salah satu dari ini
+
+A. Kurang dari 0,3
+B. Sedikitnya 0,3 tapi kurang dari 3,5
+C. Sedikitnya 3,5 tapi kurang dari 4,0
+D. Sedikitnya 4,0 tapi kurang dari 4,5
+E. Sedikitnya 4,5
+
+Jawabannya adalah A 2.097560975609756 (Kurang dari 0,3)
+
+3. Dengan menggunakan metode maximum likelihood, suatu peubah acak 𝑋 dapat dimodelkan
+dengan distribusi Pareto. Diketahui informasi sebagai berikut:
+• Parameter model 𝛼 = 3,0 dan 𝜃= 1.000
+• Inverse dari matrix informasi dengan alpha (𝛼) sebagai parameter pertama dan
+theta (𝜃) sebagai parameter kedua adalah sebagai berikut:
+[0,12 029 5333 12 ]
+Tentukan standard deviasi dari estimasi fungsi survival pada 𝑥 = 5000.
+A. Kurang dari 0,0005
+B. Sedikitnya 0,0005 tapi kurang dari 0,0010
+C. Sedikitnya 0,0010 tapi kurang dari 0,0015
+D. Sedikitnya 0,0015 tapi kurang dari 0,0020
+E. Sedikitnya 0,0020
+
+Jawabannya adalah A kurang dari 0,0005 (0.004462269828062873)
+
+4. Diberikan informasi sebagai berikut:
+• Besaran klaim untuk suatu pemegang polis diketahui mengikuti distribusi mixed
+exponential dengan fungsi peluang
+𝑓(𝑥) = 0,8𝜆𝑒−𝜆𝑥 + 0,4𝜆𝑒−2𝜆𝑥, 𝑥 > 0
+• Distribusi prior dari 𝜆 ialah Gamma dengan 𝛼 = 4 dan 𝜃 = 0,005
+Menggunakan analisis Bayesian, tentukan ekspetasi besaran klaim untuk klaim selanjutnya
+dari pemegang polis yang sebelumnya pernah mengajukan klaim sebesar 1.000. 
+
+A. 200
+B. 225
+C. 250
+D. 275
+E. 300
+
+Jawabannya adalah A 200
+
+5. GAK JELAS
+Pertama, sejumlah besar informasi yang tampaknya relevan disediakan (mis., exposure dan premium rate untuk dua kelas selama tiga tahun) tetapi pertanyaan tidak menjelaskan bagaimana menggunakan informasi ini.
+
+Kedua, pertanyaan memberikan dua jumlah yang mungkin relevan -- ∑2 𝑖=1 ∑3 𝑗=1 𝑚𝑖𝑗(𝑋𝑖𝑗 − 𝑋̅𝑖)2 = 142,189 dan ∑2 𝑖=1 𝑚𝑖(𝑋̅𝑖 − 𝑋̅ )2 = 72,296 -- tetapi tidak menjelaskan apa arti 𝑚𝑖𝑗, 𝑋𝑖𝑗, atau 𝑋̅𝑖. Biasanya, ini mungkin berarti jumlah (sum), rata-rata (mean), atau sesuatu yang lain, tetapi tanpa konteks lebih lanjut, tidak mungkin untuk mengetahui.
+
+Akhirnya, pertanyaan meminta ekspektasi dari "proses variansi" tetapi tidak menjelaskan apa yang dimaksud dengan istilah ini. 
+Dalam statistika, varians adalah ukuran sejauh mana angka dalam set data tersebar. "Proses variansi" bisa berarti banyak hal yang berbeda tergantung pada konteksnya.
+
+6. Menggunakan metode empirik non-parametrik Bayes (nonparametric Empirical Bayes),
+hitung nilai variansi dari hipotesis rata-rata premi murni (Variance of the Hypothetical Mean
+Pure Premiums). (Pilihlah jawaban yang paling mendekati.)
+A. 0,03
+B. 0,05
+C. 0,07
+D. 0,09
+E. 0,11
+
+Jawabannya adalah 0.06014763113367174 (B. 0,05 adalah yang mendekati)
+
+8. Banyaknya klaim 𝑁 tercatat pada suatu portofolio asuransi mengikuti distribusi sbb:
+n 𝐏𝐫(𝑵 = 𝒏)
+2 50%
+3 30%
+4 20%
+Jika suatu klaim terjadi, akan dibayarkan manfaat sebesar 0 atau 10 dengan peluang sebesar
+0,7 dan 0,3. Banyaknya klaim dan besar manfaat yang dibayarkan untuk setiap klaim ialah
+saling bebas.
+
+Hitung peluang bahwa total nilai manfaat yang dibayarkan akan lebih besar dari nilai
+ekspetasi pembayaran manfaat sejauh minimal 2,5 kali standar deviasi.
+
+9. Dalam soal ini peserta ujian diminta menghitung banyaknya klaim dari 1000 eksposur dalam satu tahun yang akan datang. 
+Informasi yang diberikan termasuk rata-rata rasio klaim per eksposur (0.8), variansi (0.12), dan observasi klaim sebelumnya (112 klaim dari 1000 eksposur).
+
+Untuk memprediksi jumlah klaim di masa depan, kita perlu menggunakan informasi ini. 
+Rasio klaim per eksposur dalam hal ini dianggap sebagai tingkat klaim yang diharapkan di masa depan. Sebagai contoh, jika rasio klaim per eksposur adalah 0.8, maka kita bisa mengharapkan 0.8 klaim per eksposur.
+
+Namun, mengingat bahwa kita memiliki informasi tambahan dari pengamatan klaim sebelumnya, kita bisa menggunakan ini untuk menyesuaikan perkiraan kita. 
+Kita juga harus mempertimbangkan varians, yang memberi kita ukuran seberapa jauh perbedaan individual dari rata-rata.
+
+Untuk menyesuaikan perkiraan kita berdasarkan pengamatan sebelumnya, kita bisa menggunakan konsep dari statistik Bayesian. 
+Ide dasarnya adalah bahwa kita memulai dengan "prior" (dalam hal ini, rata-rata rasio klaim per eksposur dan varians), 
+dan kemudian kita akan memperbaruinya dengan data pengamatan untuk mendapatkan "posterior".
+
+Sulit untuk dipecahkan menggunakan python code
+
+10. Suatu perusahaan asuransi menjual suatu polis dengan deductible yang besarannya turun
+secara linier sedemikian sehingga untuk klaim sebesar 500 atau kurang tidak ada manfaat yang
+dibayarkan. Pembayaran manfaat secara utuh akan diberikan untuk klaim sebesar 2.000 atau
+lebih. Tercatat ada tiga pengajuan klaim : 400, 1.000, dan 2.500. Hitung total pembayaran
+klaim terhadap tiga kerugian di atas.
+
+A. Kurang dari 3.150
+B. Sedikitnya 3.150 tapi kurang dari 3.175
+C. Sedikitnya 3.175 tapi kurang dari 3.200
+D. Sedikitnya 3.200 tapi kurang dari 3.225
+E. Sedikitnya 3225
+
+Jawabannya adalah A Kurang dari 3.150
+
+19. Suatu sampel dari 2.000 polis asuransi didapatkan 1.600 polis tanpa klaim dan 400 polis
+dengan sedikitnya 1 kali klaim. Dengan menggunakan pendekatan distribusi normal, tentukan
+symmetric 95% selang kepercayaan bagian atas untuk peluang bahwa satu polis mempunyai
+sedikitnya 1 klaim
+A. 0,2175
+B. 0,1175
+C. 0,0008
+D. 0,3185
+E. 0,2575
+
+Jawabannya adalah A 0,2175
+
